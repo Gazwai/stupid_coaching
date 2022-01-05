@@ -1,0 +1,66 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-weight: normal;
+}
+
+body {
+display: grid;
+padding: 0;
+margin: 0;
+background: white;
+justify-content: center;
+align-content: center;
+gap: 2rem;
+}
+
+.container {
+width: 800px;
+justify-content: center;
+align-content: center;
+gap: 2rem;
+}
+
+form input[type="text"] {
+  width: 480px;
+  height: 56px;
+  border-right: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-size: larger;
+}
+
+input[type="submit"] {
+  height: 56px;
+  border-left: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+form {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#you_div {
+  box-shadow: -8px 0px 0px lightgrey;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#coach_div {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: #FFFDE1;
+  box-shadow: -8px 0px 0px lightgrey;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: navy;
+}
